@@ -2,7 +2,7 @@
 import skimage.data
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
-import selectivesearch
+import selectivesearch.selectivesearch as selectivesearch
 
 
 def main():
@@ -31,6 +31,7 @@ def main():
     # draw rectangles on the original image
     fig, ax = plt.subplots(ncols=1, nrows=1, figsize=(6, 6))
     ax.imshow(img)
+    print('Number of bbox: ', len(candidates))
     for x, y, w, h in candidates:
         print(x, y, w, h)
         rect = mpatches.Rectangle(
