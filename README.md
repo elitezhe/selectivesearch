@@ -2,11 +2,17 @@
 
 This is a simple Selective Search Implementation for Python
 
+## Declaration
+
+This project is forked from [AlpacaDB/selectivesearch](https://github.com/AlpacaDB/selectivesearch "AlpacaDB/selectivesearch") which is originally coded in python2.
+
+I convert it to be python3 compatible. However, no guarantee it works properly. 
+Use it at your own risk!
+
 ## Install
 
-```
-$ pip install selectivesearch
-```
+You can just paste selectivesearch folder to your project, and import it.
+No need to install.
 
 ## Usage
 
